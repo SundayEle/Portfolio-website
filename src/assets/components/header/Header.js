@@ -1,0 +1,31 @@
+import React from 'react'
+import "./header.scss"
+import CTA from "./CTA"
+import  ME from "../../../assets/sunny.png"
+import HeaderSocials from './HeaderSocials'
+import { Zoom } from 'react-awesome-reveal' 
+
+
+function Header() {
+  return (
+    <header>
+      <div className="container header__container">
+        <h5>Hello I'm</h5>
+        <Zoom>
+        <h1>Ikpabi Sunday</h1>
+        </Zoom>
+        <h5 className="text-light">Junior Software Engineer</h5>
+        <CTA />
+        <HeaderSocials />
+
+        <div className="me">
+          <img src={ME} alt="me" />
+        </div>
+
+        <a href="#portfolio" className='scroll__down'>Click Me To Scroll Down</a>
+      </div>
+    </header>
+  )
+}
+
+export default Header
