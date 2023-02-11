@@ -1,7 +1,7 @@
 import React from 'react'
 import "./portfolio.scss"
-import IMG1 from "../../../assets/1.jfif"
-import IMG2 from "../../../assets/2.jpg"
+import IMG1 from "../../../assets/1.png"
+import IMG2 from "../../../assets/2.png"
 import IMG3 from "../../../assets/3.jfif"
 import IMG4 from "../../../assets/4.jfif"
 import IMG5 from "../../../assets/5.jfif"
@@ -12,43 +12,43 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title:'Restaurant Website',
-    githuh:'https://github.com',
+    title:'Restaurant Website UI',
+    github:'https://github.com/SundayEle/Restaurant-Website',
 
   },
   {
     id:2,
     image:IMG2,
-    title:'University Website',
-    githuh:'https://github.com',
+    title:'Currency Converter App',
+    github:'https://github.com/SundayEle/sun-currency-converter',
 
   },
   {
     id:3,
     image:IMG3,
     title:'Fintech App',
-    githuh:'https://github.com',
+    github:'https://github.com',
 
   },
   {
     id:4,
     image:IMG4,
     title:'Crypto Currency website',
-    githuh:'https://github.com',
+    github:'https://github.com',
 
   },
   {
     id:5,
     image:IMG5,
     title:'E-Commerce Website',
-    githuh:'https://github.com',
+    github:'https://github.com',
 
   },
   {
     id:6,
     image:IMG6,
     title:'Facebook UI',
-    githuh:'https://github.com',
+    github:'https://github.com',
 
   },
 ]
