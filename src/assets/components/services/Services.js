@@ -97,10 +97,6 @@ function services() {
           </li>
           <li>
           <GiCheckMark className="service__list-icon" />
-          <p>  UX writing</p>
-          </li>
-          <li>
-          <GiCheckMark className="service__list-icon" />
           <p> Business acumen</p> 
           </li>
         </ul>
