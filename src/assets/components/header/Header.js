@@ -8,7 +8,7 @@ import { Zoom } from 'react-awesome-reveal'
 
 function Header() {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <Zoom>

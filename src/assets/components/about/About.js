@@ -4,7 +4,7 @@ import ME from "../../../assets/sundayikpabi.jpg"
 import {RiAwardFill} from "react-icons/ri"
 import {FaUsers} from "react-icons/fa"
 import {VscFolderActive} from "react-icons/vsc"
-import { Fade, Bounce, Slide} from "react-awesome-reveal";
+import { Fade, Bounce,} from "react-awesome-reveal";
 
 function about() {
   return (
@@ -14,11 +14,9 @@ function about() {
 
       <div className="container about__container">
         <div className="about__me">
-          <Bounce>
           <div className="about__me-image">
             <img src={ME} alt="About Image" />
           </div>
-          </Bounce>
         </div>
 
         <div className="about__content">

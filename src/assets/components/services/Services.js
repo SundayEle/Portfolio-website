@@ -19,7 +19,7 @@ function services() {
         <ul className="service__list">
         <li>
           <GiCheckMark className="service__list-icon" />
-          <p>Deploying web applications on a cross-platform and cross-browser environment</p>
+          <p>Deploying web apps on a cross-platform and cross-browser environment</p>
           </li>
           <li>
           <GiCheckMark className="service__list-icon" />
@@ -35,7 +35,7 @@ function services() {
           </li>
           <li>
           <GiCheckMark className="service__list-icon" />
-          <p>Understanding the client requirements and their expectations from the website by conducting routine meetings with them </p>
+          <p>Understanding client requirements and expectations</p>
           </li>
           <li>
           <GiCheckMark className="service__list-icon" />
