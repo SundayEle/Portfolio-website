@@ -6,6 +6,8 @@ import {IoLogoWhatsapp} from "react-icons/io"
 import { useRef } from 'react';
 import emailjs from "emailjs-com"
 import { Fade} from 'react-awesome-reveal'
+import { ToastContainer, toast, Slide } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
   const form = useRef();
@@ -17,6 +19,22 @@ function Contact() {
   
     e.target.reset()
   };
+
+  const notifySuccess = () => {
+    toast.success('Message sent!', {
+      position: "top-center",
+      autoClose: 2500,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Slide,
+      });
+  }
+
+  
 
   return (
     <section id='contact'>
@@ -58,7 +76,8 @@ function Contact() {
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button onClick={notifySuccess} type='submit' className='btn btn-primary'>Send Message</button>
+          <ToastContainer/>
         </form>
       </div>
     </section>
