@@ -47,8 +47,8 @@ function Contact() {
           <article className="contact__option">
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>officialikpabi@gmail.com.com</h5>
-            <a href="mailto:officialikpabi@gmail.com.com" target="_blank">Send a message</a>
+            <h5>officialikpabi@gmail.com</h5>
+            <a href="mailto:officialikpabi@gmail.com" target="_blank">Send a message</a>
           </article>
           </Fade>
           <Fade delay={1e1}>
