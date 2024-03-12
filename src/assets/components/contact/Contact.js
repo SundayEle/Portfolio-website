@@ -15,7 +15,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_amkne1e', 'template_5cisjv9', form.current, 'dmfWvkbNJz8hcaUoo')
+    emailjs.sendForm('service_7j2malz', 'template_5cisjv9', form.current, 'dmfWvkbNJz8hcaUoo')
   
     e.target.reset()
   };
@@ -48,7 +48,7 @@ function Contact() {
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>officialikpabi@gmail.com</h5>
-            <a href="mailto:officialikpabi@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:officialikpabi@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           </Fade>
           <Fade delay={1e1}>
@@ -56,7 +56,7 @@ function Contact() {
             <BsMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Ikpabi Sunday</h5>
-            <a href="https://m.me/sunday.ikpabi.14" target="_blank">Send a message</a>
+            <a href="https://m.me/sunday.ikpabi.14" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           </Fade>
           <Fade delay={1e2}>
@@ -64,7 +64,7 @@ function Contact() {
             <IoLogoWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+2349135624329</h5>
-            <a href="https://api.whatsapp.com/send/?phone=2349135624329&text=Have+a+chat+with+Ikpabi+Sunday+on+Whatsapp+by+clicking+on+the+button+above,+thanks." target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send/?phone=2349135624329&text=Have+a+chat+with+Ikpabi+Sunday+on+Whatsapp+by+clicking+on+the+button+above,+thanks." target="_blank" rel="noreferrer">Send a message</a>
           </article>
           </Fade>
         </div>
