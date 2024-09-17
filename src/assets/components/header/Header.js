@@ -1,20 +1,19 @@
-import React from 'react'
-import "./header.scss"
-import CTA from "./CTA"
-import  ME from "../../../assets/sunny.png"
-import HeaderSocials from './HeaderSocials'
-import { Zoom } from 'react-awesome-reveal' 
-
+import React from "react";
+import "./header.scss";
+import CTA from "./CTA";
+import ME from "../../../assets/sunny.png";
+import HeaderSocials from "./HeaderSocials";
+import { Zoom } from "react-awesome-reveal";
 
 function Header() {
   return (
-    <header id='home'>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <Zoom>
-        <h1>Ikpabi Sunday</h1>
+          <h1>Ikpabi Sunday</h1>
         </Zoom>
-        <h5 className="text-light">Junior Software Engineer</h5>
+        <h5 className="text-light">Back End Software Engineer</h5>
         <CTA />
         <HeaderSocials />
 
@@ -22,10 +21,12 @@ function Header() {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#portfolio" className='scroll__down'>Click Me To Scroll Down</a>
+        <a href="#portfolio" className="scroll__down">
+          Click Me To Scroll Down
+        </a>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
