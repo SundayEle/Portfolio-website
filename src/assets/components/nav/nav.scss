@@ -24,7 +24,7 @@ nav a {
     font-size: 1.1rem;
 
     &:hover{
-        background: rgba(0,0,0,0.5);
+        background: var(--primary-color);
         cursor: pointer;
 
     }

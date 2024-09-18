@@ -22,6 +22,14 @@
        }
     }
 
+    .experience__frontend,.experience__tools{
+
+        > h3 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    }
+
     .experience__content{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -30,11 +38,19 @@
         .experience__details{
             display: flex;
             gap: 1rem;
+
+            > h4 {
+                font-size: 18px;
+                color: black;  
+              }
             
             .experience__details-icon{
                 margin-top: 6px;
                 color: var(--primary-color);
+
             }
+
+          
         }
     }
 }

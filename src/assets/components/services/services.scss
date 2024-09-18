@@ -1,7 +1,7 @@
 .services__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display:flex;
+    justify-content: center;
+
 
     .service{
         background: var(--color-bg-variant);
