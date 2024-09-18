@@ -18,65 +18,59 @@ function services() {
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  Develop and maintain server-side applications: Create and
-                  maintain scalable and efficient server-side applications using
-                  Node.js and related technologies.
+                  Create and maintain scalable and efficient server-side
+                  applications using Node.js and related technologies.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  Design and implement APIs: Design and implement RESTful APIs
-                  that can be consumed by front-end developers and other
-                  third-party applications.
+                  Design and implement RESTful APIs that can be consumed by
+                  front-end developers and other third-party applications.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  DWrite and maintain database queries: Write and maintain
-                  efficient database queries using SQL or NoSQL databases like
-                  MongoDB.
+                  Write and maintain efficient database queries using SQL or
+                  NoSQL databases like MongoDB.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  OImplement security measures: Implement security measures such
-                  as encryption and authentication to protect sensitive data and
-                  prevent unauthorized access.
+                  Implement security measures such as encryption and
+                  authentication to protect sensitive data and prevent
+                  unauthorized access.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  Optimize application performance: Identify and resolve
-                  performance issues in server-side applications to ensure
-                  optimal performance and scalability.
+                  Identify and resolve performance issues in server-side
+                  applications to ensure optimal performance and scalability.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  Collaborate with front-end developers: Collaborate with
-                  front-end developers to integrate server-side functionality
-                  with the user interface.
+                  Collaborate with front-end developers to integrate server-side
+                  functionality with the user interface.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  Write and maintain unit tests: Write and maintain unit tests
-                  to ensure the quality and reliability of server-side
-                  applications.
+                  Write and maintain unit tests to ensure the quality and
+                  reliability of server-side applications.
                 </p>
               </li>
               <li>
                 <GiCheckMark className="service__list-icon" />
                 <p>
-                  Stay up-to-date with new technologies: Stay up-to-date with
-                  new technologies and trends in server-side development to
-                  ensure the use of best practices and the latest tools.
+                  Stay up-to-date with new technologies and trends in
+                  server-side development to ensure the use of best practices
+                  and the latest tools.
                 </p>
               </li>
             </ul>
