@@ -43,12 +43,16 @@ function about() {
           <p className="about__content-text">
             Result-Oriented Back-end Software Engineer aiming to leverage proven
             team work and creative thinking skills to create and maintain
-            scalable and efficient server-side applications using Node.Js ,
-            Express.Js , MongoDB and related technologies. I can be relied upon
-            to design and implement RESTful APIs that can be consumed by
-            front-end developers and other third-party applications.
+            scalable and efficient server-side applications. I can be relied
+            upon to design and implement RESTful APIs that can be consumed by
+            front-end developers and other third-party applications while also
             Implementing security measures such as encryption and authentication
             to protect sensitive data and prevent unauthorized access.
+            Identifying and resolving performance issues in server-side
+            applications to ensure optimal performance and scalability. Lastly,
+            Staying up-to-date with new technologies and trends in server-side
+            development to ensure the use of best practices and the latest
+            tools.
           </p>
           <a href="#contact" className="btn btn-primary">
             Talk To Me
