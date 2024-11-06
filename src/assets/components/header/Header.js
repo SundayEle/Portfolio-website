@@ -13,7 +13,7 @@ function Header() {
         <Zoom>
           <h1>Ikpabi Sunday</h1>
         </Zoom>
-        <h5 className="text-light">Back-End Software Engineer</h5>
+        <h5 className="text-light">Software Engineer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">

@@ -41,11 +41,11 @@ function about() {
           </Fade>
 
           <p className="about__content-text">
-            Result-Oriented Back-end Software Engineer aiming to leverage proven
-            team work and creative thinking skills to create and maintain
-            scalable and efficient server-side applications. I can be relied
-            upon to design and implement RESTful APIs that can be consumed by
-            front-end developers and other third-party applications while also
+            Result-Oriented Software Engineer aiming to leverage proven team
+            work and creative thinking skills to create and maintain scalable
+            and efficient server-side applications. I can be relied upon to
+            design and implement RESTful APIs that can be consumed by front-end
+            developers and other third-party applications while also
             Implementing security measures such as encryption and authentication
             to protect sensitive data and prevent unauthorized access.
             Identifying and resolving performance issues in server-side
