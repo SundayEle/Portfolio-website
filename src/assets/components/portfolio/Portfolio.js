@@ -24,13 +24,13 @@ const data = [
   {
     id: 2,
     image: IMG1,
-    title: "Restaurant Website UI",
+    title: "Restaurant Web Application",
     github: "https://github.com/SundayEle/Restaurant-Website",
   },
   {
     id: 4,
     image: IMG5,
-    title: "E-Commerce Backend",
+    title: "E-Commerce Backend Application",
     github: "https://github.com/SundayEle/E-Commerce-Backend",
   },
 
